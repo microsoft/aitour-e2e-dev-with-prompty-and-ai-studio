@@ -6,19 +6,23 @@ To help prepare content for AI Tour, please use this template repository for org
 5. If you are taking advantage of the static front end site, edit the content in the _config.yml file as needed (specifically the title and description)
 
 
-# [TODO: Insert Session Title]
+# Practical End to End development using Prompty and AI Studio
 
-This repo is intended as a template for Microsoft AI Tour repositories
+This repo is intended for resources of the breakout session: Practical End to End development using Prompty and AI Studio
 
 ## Session Desciption
 
-TODO: Add short description of the session. Please note this description should be at a technical level that anyone from decision makers to conference attendees can understand.
+Moving Generative AI concepts into traditional development practices often feels like a daunting task. Have no fear, we'll break down the mechanics of LLMs and show you how to leverage these to enhance your apps using Prompty and AI Studio – all while respecting your favorite tools and processes. The talk will cover application setup, evaluation and unit testing, and deployment. We'll demonstrate these using familiar tools like Visual Studio Code.
 
 ## Learning Outcomes
-TODO: Add a list of what you hope the attendee will take away from this session. This can be skills, technology, appreciation, etc.
+* What is Prompty and how to get started​ in Visual Studio Code
+* How to create a custom evaluator with Prompty​
+* How to build multi agent applications with Prompty
 
 ## Technology Used
-TODO: Add a list of any technology or software used.
+* Prompty
+* PromptFlow
+* Visual Studio Code
 
 ## Additional Resources and Continued Learning
 TODO: If you would like to link the user to further learning, please enter that here.
@@ -39,13 +43,23 @@ TODO: Add yourself as a content owner
 <table>
 <tr>
     <td align="center"><a href="http://learnanalytics.microsoft.com">
-        <img src="https://github.com/cole-g-johnson.png" width="100px;" alt="Chris Testa-O'Neill
+        <img src="https://github.com/sethjuarez.png" width="100px;" alt="Seth Juarez
 "/><br />
-        <sub><b>INSERT NAME HERE
+        <sub><b>Seth Juarez
 </b></sub></a><br />
-            <a href="https://github.com/cole-g-johnson" title="talk">📢</a> 
+            <a href="https://github.com/sethjuarez" title="talk">📢</a> 
     </td>
 </tr></table>
 
+<table>
+<tr>
+    <td align="center"><a href="http://learnanalytics.microsoft.com">
+        <img src="https://github.com/bethanyjep.png" width="100px;" alt="Bethany Jepchumba
+"/><br />
+        <sub><b>Bethany Jepchumba
+</b></sub></a><br />
+            <a href="https://github.com/bethanyjep" title="talk">📢</a> 
+    </td>
+</tr></table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
