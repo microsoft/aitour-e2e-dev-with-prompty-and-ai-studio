@@ -15,11 +15,13 @@ This repo is intended for resources of the breakout session: Practical End to En
 Moving Generative AI concepts into traditional development practices often feels like a daunting task. Have no fear, we'll break down the mechanics of LLMs and show you how to leverage these to enhance your apps using Prompty and AI Studio – all while respecting your favorite tools and processes. The talk will cover application setup, evaluation and unit testing, and deployment. We'll demonstrate these using familiar tools like Visual Studio Code.
 
 ## Learning Outcomes
-* What is Prompty and how to get started​ in Visual Studio Code
-* How to create a custom evaluator with Prompty​
-* How to build multi agent applications with Prompty
+* Getting Started with LLMs​
+* Prompty Specification​
+* Getting Started with Prompty in Visual Studio Code​
+* ​Developing an App with Prompty​
 
 ## Technology Used
+* Azure AI Studio
 * Prompty
 * PromptFlow
 * Visual Studio Code
