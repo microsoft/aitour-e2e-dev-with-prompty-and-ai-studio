@@ -1,4 +1,4 @@
-# Setup
+# TO-DO - setup
 
 ## Setting up Azure AI Studio
 
@@ -20,6 +20,8 @@ You are now ready to start the first demo on the introduction to Azure AI Studio
 
 ## Setting up your local Visual Studio Code
 
-1. Install the [Prompty Extension]()
+1. Log in to your Azure account using ``az login`` on the terminal.
+
+1. Install the [Prompty Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.prompty)
 
 1. Edit ``settings.json`` file to update your LLM details. You can edit this by navigating to xxx

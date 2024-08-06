@@ -1,7 +1,7 @@
 ## TODO:
-Update this page as you see fit to properly train a future presenter of your content. A past train the trainer repo is included below for your assitance, but feel free to make any changes.
+<!-- Update this page as you see fit to properly train a future presenter of your content. A past train the trainer repo is included below for your assitance, but feel free to make any changes.
 
-Note: Please make sure to update any links within the markdown so they point to the correct file.
+Note: Please make sure to update any links within the markdown so they point to the correct file. -->
 
 ## How To Use
 

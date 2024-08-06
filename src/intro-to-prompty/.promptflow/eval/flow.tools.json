@@ -1,0 +1,20 @@
+{
+  "package": {},
+  "code": {
+    "eval.prompty": {
+      "type": "llm",
+      "inputs": {
+        "query": {
+          "type": [
+            "str"
+          ]
+        },
+        "joke": {
+          "type": [
+            "str"
+          ]
+        }
+      }
+    }
+  }
+}
