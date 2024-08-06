@@ -32,7 +32,7 @@ TODO: If you would like to link the user to further learning, please enter that 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
 | Prompty Documentation  | [Prompty](https://www.prompty.ai/) | Learn more about Prompty |
-| Azure AI Samples  | [Link 2](https://aka.ms/azd-ai-templates/) | Learn more about how you can build Prompty projects |
+| Azure AI Samples  | [Azure AI Samples](https://aka.ms/azd-ai-templates/) | Learn more about how you can build Prompty projects |
 
 ## Content Owners
 <!-- TODO: Add yourself as a content owner
