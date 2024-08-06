@@ -31,8 +31,8 @@ TODO: If you would like to link the user to further learning, please enter that 
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
-| Future Learning 1  | [Link 1](https://www.google.com/) | Learn more about X |
-| Future Learning 2  | [Link 2](https://www.google.com/) | Learn more about Y |
+| Prompty Documentation  | [Prompty](https://www.prompty.ai/) | Learn more about Prompty |
+| Azure AI Samples  | [Link 2](https://aka.ms/azd-ai-templates/) | Learn more about how you can build Prompty projects |
 
 ## Content Owners
 <!-- TODO: Add yourself as a content owner
