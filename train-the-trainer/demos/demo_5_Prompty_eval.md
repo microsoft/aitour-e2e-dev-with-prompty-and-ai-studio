@@ -19,9 +19,9 @@ sample:
 In our system instructions provide a description around the joke and
 evaluation metrics. The evaluation metrics will score the joke based on its relevance to the main intent in three main categories with examples based on each category: 
     
-1. Unrelated
-2. Somewhat related
-3. Directly related
+- Unrelated
+- Somewhat related
+- Directly related
 
 Lastly, the response should be JSON, including the score and reasoning.
 

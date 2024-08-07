@@ -7,7 +7,7 @@ Prompty allows you to configure your API either using environmental variables or
 
 ![screenshot of the default text on Visual Studio Code](images/prompty-default.png)
 
-1. Navigate to settings and switch to JSON view.
+2. Navigate to settings and switch to JSON view.
 1. Input the necessary credentials, including endpoint, deployment details, and API key.
 
 ## Option 2: Use Environment File (.env)
@@ -20,7 +20,7 @@ OPENAI_CHAT_DEPLOYMENT_NAME =
 OPENAI_ENDPOINT = 
 OPENAI_API_KEY =
 ```
-1. Update your Prompty model configuration to use environment variables. Use the following syntax to reference environment variables: ``${env:ENVIRONMENT_VARIABLE_NAME}``
+3. Update your Prompty model configuration to use environment variables. Use the following syntax to reference environment variables: ``${env:ENVIRONMENT_VARIABLE_NAME}``
 
 ## Step 4: Run Configuration
 1. Run your Prompty file to see if it is successful.

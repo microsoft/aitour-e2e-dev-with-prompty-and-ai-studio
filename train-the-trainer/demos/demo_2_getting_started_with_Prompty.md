@@ -25,13 +25,16 @@ The Prompty file consists of two main parts: Metadata in yaml and System Message
 ### Update Metadata
 
 the description attributes:
+
 ![screenshot of the description attributes](images/prompty-description-attributes.png)
+
 1. **Name:** Change the name of your prompt file to ``OutdoorsyPrompt``
 1. **Description:** Keep the description as it is.
 1. **Author:** Update the author name to your name.
 
 the model attributes:
 ![screenshot of the model attributes](images/prompty-model-attributes.png)
+
 1. **api:** chat API to be used for our application
 1. **Model Configuration:**
     1. **type:** ``azure_openai`` model type as we will be using Azure OpenAI Service models
@@ -43,6 +46,7 @@ the model attributes:
 
 the sample inputs:
 ![screenshot of the sample inputs](images/prompty-sample-inputs.png)
+
 1. **Sample inputs:** here define the model inputs
     1. **First Name:** Update it to your name.
     1. **Context:** This provides additional information for the model.
@@ -50,6 +54,7 @@ the sample inputs:
 
 ## System Instructions and user prompt
 ![screenshot of system instructions with updated sample data](images/prompty-system-iinstructions.png)
+
 Use the existing system instructions. You can preview the Prompty file to check if the sample data is updated in the instructions
 
 ## Step 4: Run the Prompty File

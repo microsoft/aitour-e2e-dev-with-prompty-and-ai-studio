@@ -4,7 +4,7 @@
 1. Let's start by opening your existing ``basic.prompty`` file.
 1. Edit the model parameters by adding ``response_format`` set the response format type as a ``json_object``
 
-``` json 
+``` 
 parameters:
   max_tokens: 3000
   temperature: 0.7
