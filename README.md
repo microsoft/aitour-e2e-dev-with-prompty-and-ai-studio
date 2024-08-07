@@ -6,9 +6,9 @@
 5. If you are taking advantage of the static front end site, edit the content in the _config.yml file as needed (specifically the title and description) -->
 
 
-# Practical End to End development using Prompty and AI Studio
+# Prompty, AI Studio and practical E2E development.
 
-This repo is intended for resources of the breakout session: Practical End to End development using Prompty and AI Studio
+This repo is intended for resources of the breakout session: Prompty, AI Studio and practical E2E development.
 
 ## Session Desciption
 
@@ -16,7 +16,7 @@ Moving Generative AI concepts into traditional development practices often feels
 
 ## Learning Outcomes
 * Getting Started with LLMs​
-* Prompty Specification​
+* Understanding the Prompty Specification​
 * Getting Started with Prompty in Visual Studio Code​
 * ​Developing an App with Prompty​
 
@@ -27,7 +27,7 @@ Moving Generative AI concepts into traditional development practices often feels
 * Visual Studio Code
 
 ## Additional Resources and Continued Learning
-TODO: If you would like to link the user to further learning, please enter that here.
+<!-- TODO: If you would like to link the user to further learning, please enter that here. -->
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
