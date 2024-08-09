@@ -1,0 +1,81 @@
+---
+name: EvalPrompt
+description: A prompt that evaluates whether a joke is related to the query
+authors:
+  - Bethany J
+model:
+  api: chat
+  configuration:
+    type: azure_openai
+    azure_endpoint: ${env:OPENAI_ENDPOINT}
+    azure_deployment: gpt-4o
+  parameters:
+    max_tokens: 3000
+    temperature: 0.7
+    response_format:
+      type: json_object
+inputs:
+  query:
+    type: str
+  joke:
+    type: str
+    
+sample:
+  query: What can you tell me about your tents?
+  joke: By the way, why don't tents ever get lost in the woods? Because they always stick to their roots! 🌲😄
+---
+
+system:
+You are an AI tool that determines if a joke is directly related to the main intent of the query.
+How to score:
+- The score can be 1, 2, or 3
+- First, determine the main intent of the query.
+- Then, use the following scoring guide:
+  - A score of 1: the joke is entirely unrelated to the query. It doesn't mention the same terms or concepts.
+  - A score of 2: the joke is somewhat related to the query. It references the same general concepts (for example it mentions outdoorsy things when asked about hiking),
+    but does not reference specific objects/locations/activities mentioned in the query, or it doesn't align with the main intent of the query.
+  - A score of 3: the joke is directly related to the main intent of the query. It references specific objects, locations, activities, etc mentioned in the query
+
+State the score based on the instructions above.
+Provide reasoning for your score.
+
+Format your response as a json object like:
+{
+  "score": 
+  "reasoning":
+}
+
+**Example of a 3 score**
+query: What is a typical elevation gain if I climb an average mountain?
+joke: Why don't mountains ever get lost on a hike? Because they always peak at the map!" 🏔️😄
+
+{
+  "score": 3
+  "reasoning": "The joke focused on mountains, which was the main topic of the query"
+}
+
+**Example of a 2 score**
+query: What is the best weather for camping?
+joke: "Why do hikers make terrible secret agents? Because they always leave trails. 🕵️‍♂️🌲"
+
+{
+  "score": 2
+  "reasoning": "The joke was not specific to weather or camping, but it mentioned hiking and trails which are related outdoor activities."
+}
+
+**Example of a 1 score**
+query: What makes tents waterproof?
+joke: "Why did the tree go hiking? It wanted to branch out! 🌳"
+
+{
+  "score": 1
+  "reasoning": "The joke was not related to tents or rain/waterproofing. It mentioned trees and hiking."
+}
+
+{{query}}
+{{joke}}
+
+{
+  "score":
+  "reasoning":
+}
