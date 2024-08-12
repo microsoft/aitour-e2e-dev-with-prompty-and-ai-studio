@@ -4,7 +4,7 @@
 1. Let's start by opening your existing ``basic.prompty`` file.
 1. Edit the model parameters by adding ``response_format`` set the response format type as a ``json_object``
 
-``` 
+``` json
 parameters:
   max_tokens: 3000
   temperature: 0.7
@@ -31,7 +31,7 @@ Respond with a json object like
 1. This will generate a code snippet in LangChain, observe the generated code.
 1. Repeat the same for: ``add Semantic Kernel Code`` and ``add Prompt Flow code``
 
-Our session will be focussed on the PromptFlow code generated
+Our session will be focussed on the PromptFlow code generated.
 
 ## Step 3: Getting started with PromptFlow
 > [TIP!]

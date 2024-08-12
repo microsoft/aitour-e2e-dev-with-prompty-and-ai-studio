@@ -16,16 +16,13 @@ sample:
 ```
 
 ## Step 2: Describe and Evaluate the Joke
-In our system instructions provide a description around the joke and
-evaluation metrics. The evaluation metrics will score the joke based on its relevance to the main intent in three main categories with examples based on each category: 
+In our system instructions provide a description around the joke and evaluation metrics. The evaluation metrics will score the joke based on its relevance to the main intent in three main categories with examples based on each category: 
     
 - Unrelated
 - Somewhat related
 - Directly related
 
-Lastly, the response should be JSON, including the score and reasoning.
-
-Next execute the Prompty code to get the joke’s score and reasoning.
+Lastly, the response should be JSON, including the score and reasoning. Execute the Prompty code to get the joke’s score and reasoning.
 
 ## Step 3: Add EvalPrompty to the PromptFlow
 
@@ -36,7 +33,7 @@ Next execute the Prompty code to get the joke’s score and reasoning.
   joke = result.joke
 ```
 
-2. Next add Prompty path to the flow uisng ``prompty.load``
+2. Next add Prompty path to the flow using ``prompty.load``
 
 ``` python
   path_to_prompty = folder + "/eval.prompty"

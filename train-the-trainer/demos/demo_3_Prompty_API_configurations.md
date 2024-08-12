@@ -11,7 +11,7 @@ Prompty allows you to configure your API either using environmental variables or
 1. Input the necessary credentials, including endpoint, deployment details, and API key.
 
 ## Option 2: Use Environment File (.env)
-1. Create a new .env file in your project directory.
+1. Create a new ``.env`` file in your project directory.
 1. Add Parameters: Include the following parameters in the .env file:
 
 ```
