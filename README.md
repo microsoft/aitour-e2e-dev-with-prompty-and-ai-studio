@@ -12,7 +12,7 @@ This repo is intended for resources of the breakout session: Prompty, AI Studio 
 
 ## Session Desciption
 
-Moving Generative AI concepts into traditional development practices often feels like a daunting task. Have no fear, we'll break down the mechanics of LLMs and show you how to leverage these to enhance your apps using Prompty and AI Studio – all while respecting your favorite tools and processes. The talk will cover application setup, evaluation and unit testing, and deployment. We'll demonstrate these using familiar tools like Visual Studio Code.
+Integrating GenAI into traditional development can be daunting. Prompty simplifies LLM app development and works seamlessly with tools like Visual Studio Code and GitHub. Learn how to build multi-model LLM (agent)  architecture, evaluation, deployment, and monitoring.
 
 ## Learning Outcomes
 * Getting Started with LLMs​
