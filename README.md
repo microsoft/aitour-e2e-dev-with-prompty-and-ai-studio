@@ -45,21 +45,15 @@ Integrating GenAI into traditional development can be daunting. Prompty simplifi
 <table>
 <tr>
     <td align="center"><a href="http://learnanalytics.microsoft.com">
-        <img src="https://github.com/sethjuarez.png" width="100px;" alt="Seth Juarez
-"/><br />
-        <sub><b>Seth Juarez
-</b></sub></a><br />
+        <img src="https://github.com/sethjuarez.png" width="100px;" alt="Seth Juarez"/><br />
+        <sub><b>Seth Juarez</b></sub></a><br />
             <a href="https://github.com/sethjuarez" title="talk">📢</a> 
     </td>
-</tr></table>
-
-<table>
+</tr>
 <tr>
     <td align="center"><a href="http://learnanalytics.microsoft.com">
-        <img src="https://github.com/bethanyjep.png" width="100px;" alt="Bethany Jepchumba
-"/><br />
-        <sub><b>Bethany Jepchumba
-</b></sub></a><br />
+        <img src="https://github.com/bethanyjep.png" width="100px;" alt="Bethany Jepchumba"/><br />
+        <sub><b>Bethany Jepchumba </b></sub></a><br />
             <a href="https://github.com/bethanyjep" title="talk">📢</a> 
     </td>
 </tr></table>
