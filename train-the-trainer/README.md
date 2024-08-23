@@ -19,9 +19,9 @@ Along with the video of the presentation, this document will link to all the ass
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](#) | Slides |
-| PPT Recording     | - [Presentation](#) | Video Recording of the PowerPoint slides with no audio |
-| Videos            | - [Microsoft Build Recording](https://build.microsoft.com/sessions/86e41e8b-1fd2-40fa-a608-6f99a28d4a61) | Example presentation of the session during Microsoft |
+| PowerPoint        | [Presentation](https://aka.ms/AArxx78) | Slides |
+| PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
+| Videos            | [Microsoft Build Recording](https://build.microsoft.com/sessions/86e41e8b-1fd2-40fa-a608-6f99a28d4a61) | Example presentation of the session during Microsoft |
 
 ## Get Started
 
