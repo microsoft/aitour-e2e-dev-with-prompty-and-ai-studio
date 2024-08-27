@@ -6,19 +6,22 @@
 5. If you are taking advantage of the static front end site, edit the content in the _config.yml file as needed (specifically the title and description) -->
 
 
-# Prompty, AI Studio and practical E2E development.
+# AI Tour BRK450 - Prompty, AI Studio and practical E2E development.
 
 This repo is intended for resources of the breakout session: Prompty, AI Studio and practical E2E development.
+
+![an image of the session banner](img/session-banner.jpg)
 
 ## Session Desciption
 
 Integrating GenAI into traditional development can be daunting. Prompty simplifies LLM app development and works seamlessly with tools like Visual Studio Code and GitHub. Learn how to build multi-model LLM (agent)  architecture, evaluation, deployment, and monitoring.
 
 ## Learning Outcomes
-* Getting Started with LLMs​
-* Understanding the Prompty Specification​
-* Getting Started with Prompty in Visual Studio Code​
-* ​Developing an App with Prompty​
+By the end of this session you will understand:
+* How to get started with LLMs​
+* Understand the Prompty Specification​
+* How to get started with Prompty in Visual Studio Code​
+* ​How to develop an App with Prompty​
 
 ## Technology Used
 * Azure AI Studio
