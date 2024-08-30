@@ -1,11 +1,8 @@
-<!-- ## TODO: -->
-<!-- Update this page as you see fit to properly train a future presenter of your content. A past train the trainer repo is included below for your assitance, but feel free to make any changes.
-
-Note: Please make sure to update any links within the markdown so they point to the correct file. -->
-
 ## How To Use
 
 Welcome,
+
+The following resources are intended for a presenter to learn and deliver the session.
 
 We're glad you are here and look forward to your delivery of this amazing content. As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
 
