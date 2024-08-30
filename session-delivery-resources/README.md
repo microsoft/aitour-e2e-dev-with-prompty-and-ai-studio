@@ -17,8 +17,9 @@ Along with the video of the presentation, this document will link to all the ass
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AArxx78) | Slides |
-| PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
-| Videos            | [Microsoft Build Recording](https://build.microsoft.com/sessions/86e41e8b-1fd2-40fa-a608-6f99a28d4a61) | Example presentation of the session during Microsoft |
+<!-- | PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio | -->
+| Train the Trainer PPT Recording | [Video](https://aka.ms/AAs1zy3) | Recorded delivery of the Train the Trainer PowerPoint slides |
+| Videos            | [Microsoft Build Recording](https://build.microsoft.com/sessions/86e41e8b-1fd2-40fa-a608-6f99a28d4a61?WT.mc_id=aiml-149230-bethanycheum) | Example presentation of the session during Microsoft |
 
 ## Get Started
 
@@ -58,10 +59,10 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  [1 - Azure AI Studio](demos/demo_1_Azure_AI_Studio.md) | 3       | [Link]() |
-|  [2 - Getting Started with Prompty](demos/demo_2_getting_started_with_Prompty.md) | 5       | [Link]() |
-|  [3 - API configurations in Prompty](demos/demo_3_Prompty_API_configurations.md) | 5       | [Link]() |
-|  [4 - Prompty and PromptFlow](demos/demo_4_Prompty_and_Promptflow.md) | 5       | [Link]() |
-|  [5 - Evaluation in Prompty](demos/demo_5_Prompty_eval.md) | 15       | [Link]() |
-|  [6 - Building an App with Prompty](demos/demo_6_app_with_Prompty.md) | 4       | [Link]() |
+|  [1 - Azure AI Studio](demos/demo_1_Azure_AI_Studio.md) | 3       | [Link](https://aka.ms/AAs1k7x) |
+|  [2 - Getting Started with Prompty](demos/demo_2_getting_started_with_Prompty.md) | 5       | [Link](https://aka.ms/AAs312a) |
+|  [3 - API configurations in Prompty](demos/demo_3_Prompty_API_configurations.md) | 5       | [Link](https://aka.ms/AAs312c) |
+|  [4 - Prompty and PromptFlow](demos/demo_4_Prompty_and_Promptflow.md) | 5       | [Link](https://aka.ms/AAs312b) |
+|  [5 - Evaluation in Prompty](demos/demo_5_Prompty_eval.md) | 15       | [Link](https://aka.ms/AAs38rh) |
+|  [6 - Building an App with Prompty](demos/demo_6_app_with_Prompty.md) | 4       | [Link](https://aka.ms/AAs2tax) |
 
