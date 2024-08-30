@@ -4,7 +4,7 @@
 
 Follow the steps below to setup your Azure AI Studio environment:
 
-1. Navigate to [Azure AI Studio](https://ai.azure.com) and login with your Azure account, once logged in, create a new project.
+1. Navigate to [Azure AI Studio](https://ai.azure.com?WT.mc_id=aiml-149230-bethanycheum) and login with your Azure account, once logged in, create a new project.
 
 ![](./demos/images/aistudio-landing-page.png)
 
@@ -33,4 +33,4 @@ You are now ready to start the first demo on the introduction to Azure AI Studio
 ![Screeenshot of ](./demos/images/vscode-settings-json.png)
 
 > [TIP!]
-> In case you encounter any challenges with permissions, you can follow the instructions for [Role-based access control for Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/role-based-access-control) to give access to your resources.
+> In case you encounter any challenges with permissions, you can follow the instructions for [Role-based access control for Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/role-based-access-control?WT.mc_id=aiml-149230-bethanycheum) to give access to your resources.
