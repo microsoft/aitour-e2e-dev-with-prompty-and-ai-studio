@@ -7,7 +7,8 @@ model:
   api: chat
   configuration:
     type: azure_openai
-    azure_endpoint: ${env:OPENAI_ENDPOINT}
+    azure_endpoint: https://aoi-ping.openai.azure.com/
+    api_version: 2023-03-15-preview
     azure_deployment: gpt-4o
   parameters:
     max_tokens: 3000

@@ -1,0 +1,279 @@
+{
+    "runtime": "python",
+    "version": "0.1.17",
+    "trace": {
+        "name": "run",
+        "__time": {
+            "start": "2024-09-09T18:39:57.826327",
+            "end": "2024-09-09T18:40:11.710427",
+            "duration": 13884
+        },
+        "signature": "__main__.run",
+        "inputs": {
+            "firstName": "Bethany",
+            "context": "The Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!\n",
+            "question": "What can you tell me about your tents?"
+        },
+        "__frames": [
+            {
+                "name": "execute",
+                "__time": {
+                    "start": "2024-09-09T18:39:57.830385",
+                    "end": "2024-09-09T18:40:11.709407",
+                    "duration": 13879
+                },
+                "signature": "prompty.execute",
+                "description": "Execute a prompty",
+                "inputs": {
+                    "prompt": "basic.prompty",
+                    "configuration": {},
+                    "parameters": {},
+                    "inputs": {
+                        "firstName": "Bethany",
+                        "context": "The Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!\n",
+                        "question": "What can you tell me about your tents?"
+                    },
+                    "raw": false,
+                    "config_name": "default"
+                },
+                "__frames": [
+                    {
+                        "name": "load",
+                        "__time": {
+                            "start": "2024-09-09T18:39:57.917866",
+                            "end": "2024-09-09T18:39:57.984300",
+                            "duration": 66
+                        },
+                        "signature": "prompty.load",
+                        "description": "Load a prompty file.",
+                        "inputs": {
+                            "prompty_file": "C:\\Users\\bethanycheum\\Downloads\\aitour-e2e-dev-with-prompty-and-ai-studio\\src\\intro-to-prompty\\basic.prompty",
+                            "configuration": "default"
+                        },
+                        "result": {
+                            "name": "OutdoorsyPrompt",
+                            "description": "A prompt that uses context to ground an incoming question",
+                            "authors": [
+                                "Bethany J."
+                            ],
+                            "model": {
+                                "api": "chat",
+                                "configuration": {
+                                    "type": "azure_openai",
+                                    "azure_endpoint": "https://aoi-ping.openai.azure.com/",
+                                    "api_version": "v1",
+                                    "azure_deployment": "gpt-4o"
+                                },
+                                "parameters": {
+                                    "max_tokens": 3000,
+                                    "temperature": 0.7,
+                                    "response_format": {
+                                        "type": "json_object"
+                                    }
+                                },
+                                "response": {}
+                            },
+                            "sample": {
+                                "firstName": "Bethany",
+                                "context": "The Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!",
+                                "question": "What can you tell me about your tents?"
+                            },
+                            "template": {
+                                "type": "jinja2",
+                                "parser": "prompty"
+                            },
+                            "file": "C:/Users/bethanycheum/Downloads/aitour-e2e-dev-with-prompty-and-ai-studio/src/intro-to-prompty/basic.prompty",
+                            "content": "system:\nYou are an AI assistant who helps people find information. As the assistant, \nyou answer questions briefly, succinctly, and in a personable manner using \nmarkdown and even add some personal flair with appropriate emojis.\n\nAdd an outdoorsy joke, starting with \"By the way, \". Don't address the customer's name for the joke portion of the response.\nThe joke should be directly related to the specific question asked.\nFor example, if the question is asking about hiking, the joke should be related specifically to hiking.\n\nBefore sharing the joke, mention you are providing a joke to motivate the user to explore the great outdoors\n\nRespond with a json object like\n{\n  reponse:\n  joke:\n}\n\n# Customer\nYou are helping {{firstName}} to find answers to their questions.\nUse their name to address them in your responses.\n\n# Context\nUse the following context to provide a more personalized response to {{firstName}}:\n{{context}}\n\nuser:\n{{question}}\n\n{\n  response: \n  joke:\n}\n"
+                        }
+                    },
+                    {
+                        "name": "prepare",
+                        "__time": {
+                            "start": "2024-09-09T18:39:57.985304",
+                            "end": "2024-09-09T18:39:58.572347",
+                            "duration": 587
+                        },
+                        "signature": "prompty.prepare",
+                        "description": "Prepare the inputs for the prompt.",
+                        "inputs": {
+                            "prompt": {
+                                "name": "OutdoorsyPrompt",
+                                "description": "A prompt that uses context to ground an incoming question",
+                                "authors": [
+                                    "Bethany J."
+                                ],
+                                "model": {
+                                    "api": "chat",
+                                    "configuration": {
+                                        "type": "azure_openai",
+                                        "azure_endpoint": "https://aoi-ping.openai.azure.com/",
+                                        "api_version": "v1",
+                                        "azure_deployment": "gpt-4o"
+                                    },
+                                    "parameters": {
+                                        "max_tokens": 3000,
+                                        "temperature": 0.7,
+                                        "response_format": {
+                                            "type": "json_object"
+                                        }
+                                    },
+                                    "response": {}
+                                },
+                                "sample": {
+                                    "firstName": "Bethany",
+                                    "context": "The Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!",
+                                    "question": "What can you tell me about your tents?"
+                                },
+                                "template": {
+                                    "type": "jinja2",
+                                    "parser": "prompty"
+                                },
+                                "file": "C:/Users/bethanycheum/Downloads/aitour-e2e-dev-with-prompty-and-ai-studio/src/intro-to-prompty/basic.prompty",
+                                "content": "system:\nYou are an AI assistant who helps people find information. As the assistant, \nyou answer questions briefly, succinctly, and in a personable manner using \nmarkdown and even add some personal flair with appropriate emojis.\n\nAdd an outdoorsy joke, starting with \"By the way, \". Don't address the customer's name for the joke portion of the response.\nThe joke should be directly related to the specific question asked.\nFor example, if the question is asking about hiking, the joke should be related specifically to hiking.\n\nBefore sharing the joke, mention you are providing a joke to motivate the user to explore the great outdoors\n\nRespond with a json object like\n{\n  reponse:\n  joke:\n}\n\n# Customer\nYou are helping {{firstName}} to find answers to their questions.\nUse their name to address them in your responses.\n\n# Context\nUse the following context to provide a more personalized response to {{firstName}}:\n{{context}}\n\nuser:\n{{question}}\n\n{\n  response: \n  joke:\n}\n"
+                            },
+                            "inputs": {
+                                "firstName": "Bethany",
+                                "context": "The Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!\n",
+                                "question": "What can you tell me about your tents?"
+                            }
+                        },
+                        "__frames": [
+                            {
+                                "name": "Jinja2Renderer",
+                                "__time": {
+                                    "start": "2024-09-09T18:39:58.002309",
+                                    "end": "2024-09-09T18:39:58.109744",
+                                    "duration": 107
+                                },
+                                "signature": "prompty.renderers.Jinja2Renderer.invoke",
+                                "inputs": {
+                                    "data": {
+                                        "firstName": "Bethany",
+                                        "context": "The Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!\n",
+                                        "question": "What can you tell me about your tents?"
+                                    }
+                                },
+                                "result": "system:\nYou are an AI assistant who helps people find information. As the assistant, \nyou answer questions briefly, succinctly, and in a personable manner using \nmarkdown and even add some personal flair with appropriate emojis.\n\nAdd an outdoorsy joke, starting with \"By the way, \". Don't address the customer's name for the joke portion of the response.\nThe joke should be directly related to the specific question asked.\nFor example, if the question is asking about hiking, the joke should be related specifically to hiking.\n\nBefore sharing the joke, mention you are providing a joke to motivate the user to explore the great outdoors\n\nRespond with a json object like\n{\n  reponse:\n  joke:\n}\n\n# Customer\nYou are helping Bethany to find answers to their questions.\nUse their name to address them in your responses.\n\n# Context\nUse the following context to provide a more personalized response to Bethany:\nThe Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!\n\n\nuser:\nWhat can you tell me about your tents?\n\n{\n  response: \n  joke:\n}"
+                            },
+                            {
+                                "name": "PromptyChatParser",
+                                "__time": {
+                                    "start": "2024-09-09T18:39:58.167954",
+                                    "end": "2024-09-09T18:39:58.511931",
+                                    "duration": 343
+                                },
+                                "signature": "prompty.parsers.PromptyChatParser.invoke",
+                                "inputs": {
+                                    "data": "system:\nYou are an AI assistant who helps people find information. As the assistant, \nyou answer questions briefly, succinctly, and in a personable manner using \nmarkdown and even add some personal flair with appropriate emojis.\n\nAdd an outdoorsy joke, starting with \"By the way, \". Don't address the customer's name for the joke portion of the response.\nThe joke should be directly related to the specific question asked.\nFor example, if the question is asking about hiking, the joke should be related specifically to hiking.\n\nBefore sharing the joke, mention you are providing a joke to motivate the user to explore the great outdoors\n\nRespond with a json object like\n{\n  reponse:\n  joke:\n}\n\n# Customer\nYou are helping Bethany to find answers to their questions.\nUse their name to address them in your responses.\n\n# Context\nUse the following context to provide a more personalized response to Bethany:\nThe Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!\n\n\nuser:\nWhat can you tell me about your tents?\n\n{\n  response: \n  joke:\n}"
+                                },
+                                "result": [
+                                    {
+                                        "role": "system",
+                                        "content": "You are an AI assistant who helps people find information. As the assistant, \nyou answer questions briefly, succinctly, and in a personable manner using \nmarkdown and even add some personal flair with appropriate emojis.\n\nAdd an outdoorsy joke, starting with \"By the way, \". Don't address the customer's name for the joke portion of the response.\nThe joke should be directly related to the specific question asked.\nFor example, if the question is asking about hiking, the joke should be related specifically to hiking.\n\nBefore sharing the joke, mention you are providing a joke to motivate the user to explore the great outdoors\n\nRespond with a json object like\n{\n  reponse:\n  joke:\n}\n\n# Customer\nYou are helping Bethany to find answers to their questions.\nUse their name to address them in your responses.\n\n# Context\nUse the following context to provide a more personalized response to Bethany:\nThe Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!"
+                                    },
+                                    {
+                                        "role": "user",
+                                        "content": "What can you tell me about your tents?\n\n{\n  response: \n  joke:\n}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "result": [
+                            {
+                                "role": "system",
+                                "content": "You are an AI assistant who helps people find information. As the assistant, \nyou answer questions briefly, succinctly, and in a personable manner using \nmarkdown and even add some personal flair with appropriate emojis.\n\nAdd an outdoorsy joke, starting with \"By the way, \". Don't address the customer's name for the joke portion of the response.\nThe joke should be directly related to the specific question asked.\nFor example, if the question is asking about hiking, the joke should be related specifically to hiking.\n\nBefore sharing the joke, mention you are providing a joke to motivate the user to explore the great outdoors\n\nRespond with a json object like\n{\n  reponse:\n  joke:\n}\n\n# Customer\nYou are helping Bethany to find answers to their questions.\nUse their name to address them in your responses.\n\n# Context\nUse the following context to provide a more personalized response to Bethany:\nThe Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!"
+                            },
+                            {
+                                "role": "user",
+                                "content": "What can you tell me about your tents?\n\n{\n  response: \n  joke:\n}"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "run",
+                        "__time": {
+                            "start": "2024-09-09T18:39:58.580350",
+                            "end": "2024-09-09T18:40:11.709407",
+                            "duration": 13129
+                        },
+                        "signature": "prompty.run",
+                        "description": "Run the prepared Prompty content against the model.",
+                        "inputs": {
+                            "prompt": {
+                                "name": "OutdoorsyPrompt",
+                                "description": "A prompt that uses context to ground an incoming question",
+                                "authors": [
+                                    "Bethany J."
+                                ],
+                                "model": {
+                                    "api": "chat",
+                                    "configuration": {
+                                        "type": "azure_openai",
+                                        "azure_endpoint": "https://aoi-ping.openai.azure.com/",
+                                        "api_version": "v1",
+                                        "azure_deployment": "gpt-4o"
+                                    },
+                                    "parameters": {
+                                        "max_tokens": 3000,
+                                        "temperature": 0.7,
+                                        "response_format": {
+                                            "type": "json_object"
+                                        }
+                                    },
+                                    "response": {}
+                                },
+                                "sample": {
+                                    "firstName": "Bethany",
+                                    "context": "The Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!",
+                                    "question": "What can you tell me about your tents?"
+                                },
+                                "template": {
+                                    "type": "jinja2",
+                                    "parser": "prompty"
+                                },
+                                "file": "C:/Users/bethanycheum/Downloads/aitour-e2e-dev-with-prompty-and-ai-studio/src/intro-to-prompty/basic.prompty",
+                                "content": "system:\nYou are an AI assistant who helps people find information. As the assistant, \nyou answer questions briefly, succinctly, and in a personable manner using \nmarkdown and even add some personal flair with appropriate emojis.\n\nAdd an outdoorsy joke, starting with \"By the way, \". Don't address the customer's name for the joke portion of the response.\nThe joke should be directly related to the specific question asked.\nFor example, if the question is asking about hiking, the joke should be related specifically to hiking.\n\nBefore sharing the joke, mention you are providing a joke to motivate the user to explore the great outdoors\n\nRespond with a json object like\n{\n  reponse:\n  joke:\n}\n\n# Customer\nYou are helping {{firstName}} to find answers to their questions.\nUse their name to address them in your responses.\n\n# Context\nUse the following context to provide a more personalized response to {{firstName}}:\n{{context}}\n\nuser:\n{{question}}\n\n{\n  response: \n  joke:\n}\n"
+                            },
+                            "content": [
+                                {
+                                    "role": "system",
+                                    "content": "You are an AI assistant who helps people find information. As the assistant, \nyou answer questions briefly, succinctly, and in a personable manner using \nmarkdown and even add some personal flair with appropriate emojis.\n\nAdd an outdoorsy joke, starting with \"By the way, \". Don't address the customer's name for the joke portion of the response.\nThe joke should be directly related to the specific question asked.\nFor example, if the question is asking about hiking, the joke should be related specifically to hiking.\n\nBefore sharing the joke, mention you are providing a joke to motivate the user to explore the great outdoors\n\nRespond with a json object like\n{\n  reponse:\n  joke:\n}\n\n# Customer\nYou are helping Bethany to find answers to their questions.\nUse their name to address them in your responses.\n\n# Context\nUse the following context to provide a more personalized response to Bethany:\nThe Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!"
+                                },
+                                {
+                                    "role": "user",
+                                    "content": "What can you tell me about your tents?\n\n{\n  response: \n  joke:\n}"
+                                }
+                            ],
+                            "configuration": {},
+                            "parameters": {},
+                            "raw": false
+                        },
+                        "__frames": [
+                            {
+                                "name": "AzureOpenAIExecutor",
+                                "__time": {
+                                    "start": "2024-09-09T18:40:02.684195",
+                                    "end": "2024-09-09T18:40:11.708235",
+                                    "duration": 9024
+                                },
+                                "signature": "prompty.azure.executor.AzureOpenAIExecutor.invoke",
+                                "inputs": {
+                                    "data": [
+                                        {
+                                            "role": "system",
+                                            "content": "You are an AI assistant who helps people find information. As the assistant, \nyou answer questions briefly, succinctly, and in a personable manner using \nmarkdown and even add some personal flair with appropriate emojis.\n\nAdd an outdoorsy joke, starting with \"By the way, \". Don't address the customer's name for the joke portion of the response.\nThe joke should be directly related to the specific question asked.\nFor example, if the question is asking about hiking, the joke should be related specifically to hiking.\n\nBefore sharing the joke, mention you are providing a joke to motivate the user to explore the great outdoors\n\nRespond with a json object like\n{\n  reponse:\n  joke:\n}\n\n# Customer\nYou are helping Bethany to find answers to their questions.\nUse their name to address them in your responses.\n\n# Context\nUse the following context to provide a more personalized response to Bethany:\nThe Alpine Explorer Tent boasts a detachable divider for privacy,  numerous mesh windows and adjustable vents for ventilation, and  a waterproof design. It even has a built-in gear loft for storing  your outdoor essentials. In short, it's a blend of privacy, comfort,  and convenience, making it your second home in the heart of nature!"
+                                        },
+                                        {
+                                            "role": "user",
+                                            "content": "What can you tell me about your tents?\n\n{\n  response: \n  joke:\n}"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
