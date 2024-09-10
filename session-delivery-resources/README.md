@@ -16,7 +16,7 @@ Along with the video of the presentation, this document will link to all the ass
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | [Presentation](https://aka.ms/AArxx78) | Slides |
+| PowerPoint        | [Presentation](https://aka.ms/AArxx78) | Slides, [Additonal Languages](#powerpoint-slides-in-additional-languages) |
 | Train the Trainer PPT Recording | [Video](https://aka.ms/AAs1zy3) | Recorded delivery of the Train the Trainer PowerPoint slides |
 | Videos            | [Microsoft Build Recording](https://build.microsoft.com/sessions/86e41e8b-1fd2-40fa-a608-6f99a28d4a61?WT.mc_id=aiml-149230-bethanycheum) | Example presentation of the session during Microsoft |
 
@@ -43,6 +43,12 @@ The [slides](presentations.md) have presenter notes in each part of the session
 38:00 - 42:00 | Demo: Developing an app with Prompty
 42:00 - 45:00 | Summary, key takeaways and additional resources
 
+### PowerPoint Slides in additional languages
+| Language | Last updated | 
+|------------------- | ---- |
+| [Spanish](https://aka.ms/AAs7mft) | 2024.09.10 | 
+| [Portuguese](https://aka.ms/AAs7etw) | 2024.09.10| 
+
 ## Preparation
 
 >**What's Here?** preparing the demo environment on Azure and Visual Studio Code - including the prerequisites.
@@ -64,4 +70,13 @@ Detailed explanations of each demonstration associated with this presentation ca
 |  [4 - Prompty and PromptFlow](demos/demo_4_Prompty_and_Promptflow.md) | 5       | [Link](https://aka.ms/AAs312b) |
 |  [5 - Evaluation in Prompty](demos/demo_5_Prompty_eval.md) | 15       | [Link](https://aka.ms/AAs38rh) |
 |  [6 - Building an App with Prompty](demos/demo_6_app_with_Prompty.md) | 4       | [Link](https://aka.ms/AAs2tax) |
+
+## Change Log
+
+Here is a log of the changes made to this file:
+
+| Date       | Changes |
+|------------|---------|
+| 2024.09.10 | Added Change log, Additional language section with Spanish and Portuguese PowerPoint slides |
+
 
