@@ -8,6 +8,8 @@
 
 # AI Tour BRK450 - Prompty, AI Studio and practical E2E development.
 
+[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4?WT.mc_id=aiml-137032-bethanycheum)
+
 This repo is intended for resources of the breakout session: Prompty, AI Studio and practical E2E development.
 
 ![an image of the session banner](img/session-banner.jpg)
@@ -15,6 +17,11 @@ This repo is intended for resources of the breakout session: Prompty, AI Studio 
 ## Session Desciption
 
 Integrating GenAI into traditional development can be daunting. Prompty simplifies LLM app development and works seamlessly with tools like Visual Studio Code and GitHub. Learn how to build multi-model LLM (agent)  architecture, evaluation, deployment, and monitoring.
+
+### Duration
+45 Minutes
+
+### [Slide Deck](https://aka.ms/AArxx78)
 
 ## Learning Outcomes
 By the end of this session you will understand:
@@ -24,10 +31,10 @@ By the end of this session you will understand:
 * ​How to develop an App with Prompty​
 
 ## Technology Used
-* Azure AI Studio
-* Prompty
-* PromptFlow
-* Visual Studio Code
+* [Azure AI Studio](https://learn.microsoft.com/en-us/azure/ai-studio/)
+* [Prompty](https://www.prompty.ai/)
+* [PromptFlow](https://microsoft.github.io/promptflow/index.html)
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Additional Resources and Continued Learning
 <!-- TODO: If you would like to link the user to further learning, please enter that here. -->
@@ -52,8 +59,6 @@ By the end of this session you will understand:
         <sub><b>Seth Juarez</b></sub></a><br />
             <a href="https://github.com/sethjuarez" title="talk">📢</a> 
     </td>
-</tr>
-<tr>
     <td align="center"><a href="http://learnanalytics.microsoft.com">
         <img src="https://github.com/bethanyjep.png" width="100px;" alt="Bethany Jepchumba"/><br />
         <sub><b>Bethany Jepchumba </b></sub></a><br />
