@@ -6,6 +6,9 @@ import prompty
 import prompty.azure
 from prompty.tracer import trace, Tracer, console_tracer, PromptyTracer
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
 # add console and json tracer:
 # this only has to be done once
 # at application startup
@@ -30,7 +33,23 @@ def run(
     }
   )
 
-  return result
+  # Parse the result if it's a JSON string
+  result = json.loads(result)
+
+  # Extract the joke from the result
+  joke = result["joke"]
+  print("Joke: ", joke)
+
+  # execute the prompty file
+  eval = prompty.execute(
+    "eval.prompty", 
+    inputs={
+      "joke": joke,
+      "query": question
+    }
+  )
+
+  return eval
 
 if __name__ == "__main__":
    json_input = '''{
