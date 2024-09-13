@@ -1,4 +1,4 @@
-.runs
-.vscode
-.promptflow
-.env
+*.runs
+*.vscode
+*.promptflow
+*.env
