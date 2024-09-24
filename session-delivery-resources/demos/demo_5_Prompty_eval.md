@@ -4,9 +4,9 @@ In this demo, we create a new Prompty to evaluate whether the joke is directly r
 
 ## Step 1: EvalPrompty
 
-1.Head over to the ``eval.prompty`` file.
+1. Head over to the ``eval.prompty`` file.
 1. In this file update the configuration endpoint and retain response format as JSON.
-1. Next define your inputs, both of whih are type ``string``. 
+1. Next define your inputs, both of which are type ``string``. 
 1. The sample input would be the user query and joke based on the query, as shown below:
 
 ```
@@ -24,7 +24,7 @@ In our system instructions provide a description around the joke and evaluation 
 
 Lastly, the response should be JSON, including the score and reasoning. Execute the Prompty code to get the joke’s score and reasoning.
 
-## Step 3: Add EvalPrompty to the PromptFlow
+## Step 3: Add EvalPrompty to Python
 
 1. First, print the output of the response to the question and the joke. Then get the joke from the output as follows:
 
@@ -33,20 +33,27 @@ Lastly, the response should be JSON, including the score and reasoning. Execute 
   joke = result.joke
 ```
 
-2. Next add Prompty path to the flow using ``prompty.load``
+2. Next add Prompty path to the flow using ``prompty.execute``
 
 ``` python
-  path_to_prompty = folder + "/eval.prompty"
+  # execute the prompty file
+  eval = prompty.execute(
+    "eval.prompty", 
+    inputs={
+      "joke": joke,
+      "query": question
+    }
+  )
 
-  eval_prompty = Prompty.load(path_to_prompty)
-  eval_result = eval_prompty(query=question, joke=joke)
-
-  print("~~~Evaluation~~~")
-  print(eval_result)
+  return eval
 ```
 3. Next, run the code. 
-4. You will encounter an error which can be fixed using the debugger. Add a breakpoint to line 28, where there is an error. Run the code again. If everything works perfectly, you can fix the code at line 28 as follows: ``joke = result["joke"]``
+4. You will encounter an error which can be fixed using the debugger. Add a breakpoint to line 28, where there is an error. Run the code again. If everything works perfectly, you can fix the code at line 28 as follows: ```python
+  # Extract the joke from the result
+  joke = result["joke"]
+  print("Joke: ", joke)
+```
 
-## Step 4: Run PromptFlow
+## Step 4: Run Python
 
 The last step is to run the flow, it should return the joke, score and reasoning behind the score.
