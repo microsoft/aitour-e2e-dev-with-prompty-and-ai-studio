@@ -1,4 +1,4 @@
-# Prompty and PromptFlow
+# Prompty and Python
 
 ## Step 1: Edit the Prompty File
 1. Let's start by opening your existing ``basic.prompty`` file.
@@ -27,23 +27,24 @@ Respond with a json object like
 }
 ```
 ## Step 2: Add Prompty to Code
-1. Right-Click on Prompty File and select: ``add LangChain Code`` 
-1. This will generate a code snippet in LangChain, observe the generated code.
-1. Repeat the same for: ``add Semantic Kernel Code`` and ``add Prompt Flow code``
+1. Right-Click on Prompty File and select: ``add Prompty Code`` 
+1. This will generate a code snippet in Python, observe the generated code.
+1. Repeat the same for: ``add Semantic Kernel Code``, ``add LangChain code`` and ``add Prompt flow code``
 
-Our session will be focussed on the PromptFlow code generated.
+Our session will be focussed on the Python code generated.
 
-## Step 3: Getting started with PromptFlow
-> [TIP!]
+## Step 3: Getting started with Python
+> [!TIP]
 > You can create a python virtual environment to install and run the dependancies
 
-1. Create a requirements.txt file and add the required libraries.
+1. In the ``requirements.txt`` file we have required libraries.
 ```
 promptflow
 azure-identity
+prompty[azure]
 ```
 2. Install Dependencies: Open the terminal and run the following command to install the dependencies: ``pip install -r requirements.txt``
 
 
-## Step 4: Run the PromptFlow code
-Run the PromptFlow file in terminal, ensure the output is in the desired JSON format with the joke included.
+## Step 4: Run the Python code
+Run the Python file in terminal, ensure the output is in the desired JSON format with the joke included.
