@@ -63,6 +63,14 @@ The [slides](https://aka.ms/AAs1k7u) have presenter notes in each part of the se
 
 [Instructions and prerequisites are outlined here](setup.md). 
 
+## What's new with Prompty?
+
+> [!IMPORTANT]
+> [https://aka.ms/aitour/brk540/prompty-updates](GitHub Models and adding Prompty code)
+
+1. **GitHub Models** enables you to try, test and deploy from a wide array of model types, sizes and specializations. GitHub Models are now intergrated with the Prompty extension to quickly prototype and create prompt files directly on Codespaces and Visual Studio Code.
+
+2. Generating Python code directly from the extension in addition to Prompt flow, LangChain and Semantic Kernel.
 
 ## Demos
 

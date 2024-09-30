@@ -2,17 +2,19 @@
 
 Prompty allows you to configure your API either using environmental variables or through ``settings.json``
 
-## Option 1: Edit Deployment Settings
-1. Access Deployment: Click on the ```default`` text on the bottom right side of the screen.
+## Option 1: Edit Deployment Settings (recommended)
+ 1. Access Deployment: Click on the ```default`` text on the bottom right side of the screen.
 
 ![screenshot of the default text on Visual Studio Code](images/prompty-default.png)
 
 2. Navigate to settings and switch to JSON view.
-1. Input the necessary credentials, including endpoint, deployment details, and API key.
+3. Input the necessary credentials, including endpoint and deployment details. Add ``api_key`` but leave it blank
 
-## Option 2: Use Environment File (.env)
+4. On your terminal, log in to your Azure account using ``az login --use-device-code`` to authenticate your connection.
+
+## Option 3: Use Environment File (.env) - not recommended
 1. Create a new ``.env`` file in your project directory.
-1. Add Parameters: Include the following parameters in the .env file:
+2. Add Parameters: Include the following parameters in the .env file:
 
 ```
 OPENAI_API_VERSION = 
@@ -24,4 +26,4 @@ OPENAI_API_KEY =
 
 ## Step 4: Run Configuration
 1. Run your Prompty file to see if it is successful.
-1. Ensure that the output is as expected.
+2. Ensure that the output is as expected.
