@@ -5,6 +5,10 @@ folder = Path(__file__).parent.absolute().as_posix()
 
 from promptflow.core import tool, Prompty
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 @tool
 def flow_entry(    
       firstName: any,
@@ -44,4 +48,3 @@ if __name__ == "__main__":
    args = json.loads(json_input)
 
    result = flow_entry(**args)
-   print(result)

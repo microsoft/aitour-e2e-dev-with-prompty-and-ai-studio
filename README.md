@@ -21,7 +21,7 @@ Integrating GenAI into traditional development can be daunting. Prompty simplifi
 ### Duration
 45 Minutes
 
-### [Slide Deck](https://aka.ms/AArxx78)
+### [Slide Deck](https://aka.ms/AAs1k7u)
 
 ## Learning Outcomes
 By the end of this session you will understand:

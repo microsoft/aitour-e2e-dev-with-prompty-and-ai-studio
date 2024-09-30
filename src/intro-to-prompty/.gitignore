@@ -1,2 +1,3 @@
-.env
-.promptflow
+*.env
+*.promptflow
+*.runs

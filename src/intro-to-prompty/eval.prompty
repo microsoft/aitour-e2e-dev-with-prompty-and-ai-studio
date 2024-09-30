@@ -8,18 +8,13 @@ model:
   configuration:
     type: azure_openai
     azure_endpoint: ${env:OPENAI_ENDPOINT}
+    api_version: 2023-03-15-preview
     azure_deployment: gpt-4o
   parameters:
     max_tokens: 3000
     temperature: 0.7
     response_format:
-      type: json_object
-inputs:
-  query:
-    type: str
-  joke:
-    type: str
-    
+      type: json_object    
 sample:
   query: What can you tell me about your tents?
   joke: By the way, why don't tents ever get lost in the woods? Because they always stick to their roots! 🌲😄

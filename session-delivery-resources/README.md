@@ -16,12 +16,7 @@ Along with the video of the presentation, this document will link to all the ass
 
 | Resources          | Links    | Description |
 |-------------------|----------------------------------|-------------------|
-<<<<<<< bethany-updates
-| PowerPoint        | [Presentation](https://aka.ms/AArxx78) | Slides |
-| PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
-=======
-| PowerPoint        | [Presentation](https://aka.ms/AArxx78) | Slides, [Additonal Languages](#powerpoint-slides-in-additional-languages) |
->>>>>>> main
+| PowerPoint        | [Presentation](https://aka.ms/AAs1k7u) | Slides, [Additonal Languages](#powerpoint-slides-in-additional-languages) |
 | Train the Trainer PPT Recording | [Video](https://aka.ms/AAs1zy3) | Recorded delivery of the Train the Trainer PowerPoint slides |
 | Videos            | [Microsoft Build Recording](https://build.microsoft.com/sessions/86e41e8b-1fd2-40fa-a608-6f99a28d4a61?WT.mc_id=aiml-149230-bethanycheum) | Example presentation of the session during Microsoft |
 
@@ -29,13 +24,13 @@ Along with the video of the presentation, this document will link to all the ass
 
 This training repository is divided in to the following sections:
 
-| [Slides](https://aka.ms/AArxx78) | [Demos](demos/README.md) | [Setup](setup.md) | 
+| [Slides](https://aka.ms/AAs1k7u) | [Demos](demos/README.md) | [Setup](setup.md) | 
 |-------------------|---------------------------|--------------------------------------
 | 19 slides - 45 minutes| 6 demos - 37 minutes | Demo setup
 
 ## Slides
 
-The [slides](https://aka.ms/AArxx78) have presenter notes in each part of the session
+The [slides](https://aka.ms/AAs1k7u) have presenter notes in each part of the session
 
 ### Timing
 
