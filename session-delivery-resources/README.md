@@ -87,6 +87,15 @@ Detailed explanations of each demonstration associated with this presentation ca
 |  [5 - Evaluation in Prompty](demos/demo_5_Prompty_eval.md) | 15       | [Link](https://aka.ms/AAs38rh) |
 |  [6 - Building an App with Prompty](demos/demo_6_app_with_Prompty.md) | 4       | [Link](https://aka.ms/AAs2tax) |
 
+## File Summary
+
+| Resource         | Quota / Size   | Region  |
+| ---------|---------|----------------- | 
+|  gpt-4o  | 20       | East US 2   |
+|  Bing search  | -      | East US 2   |
+|  Azure AI Search    | semantic ranker needed    | East US 2   |
+|  gpt-4  | 20       | East US 2   |
+
 ## Change Log
 
 Here is a log of the changes made to this file:
