@@ -72,7 +72,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  [1 - Azure AI Studio](demos/demo_1_Azure_AI_Studio.md) | 3       | [Link](https://aka.ms/AAs1k7x) |
+|  [1 - Azure AI Foundry portal](demos/demo_1_Azure_AI_Foundry_portal.md) | 3       | [Link](https://aka.ms/AAs1k7x) |
 |  [2 - Getting Started with Prompty](demos/demo_2_getting_started_with_Prompty.md) | 5       | [Link](https://aka.ms/AAs312a) |
 |  [3 - API configurations in Prompty](demos/demo_3_Prompty_API_configurations.md) | 5       | [Link](https://aka.ms/AAs312c) |
 |  [4 - Prompty and PromptFlow](demos/demo_4_Prompty_and_Promptflow.md) | 5       | [Link](https://aka.ms/AAs312b) |
@@ -95,5 +95,6 @@ Here is a log of the changes made to this file:
 | Date       | Changes |
 |------------|---------|
 | 2024.09.10 | Added Change log, Additional language section with Spanish and Portuguese PowerPoint slides |
+| 2024.11.20 | Added Azure AI Foundry updates |
 
 
