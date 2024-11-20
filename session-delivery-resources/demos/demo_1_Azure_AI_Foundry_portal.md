@@ -1,20 +1,21 @@
-# Demo 1: Azure AI Studio
+# Demo 1: Azure AI Foundry portal
 
-Large Language Models, LLMs, are similiar to language calculators. In this section, we cover how you can interact with LLMs on Azure AI Studio
+Large Language Models, LLMs, are similiar to language calculators. In this section, we cover how you can interact with LLMs on Azure AI Foundry portal
 
 ## Chat Playground
 
-First, you will need to create a project on [Azure AI Studio](https://ai.azure.com) and deploy a model of your choice, in this demo use GPT-4. 
+First, you will need to create a project on [Azure AI Foundry portal](https://ai.azure.com) and deploy a model of your choice, in this demo use GPT-4. 
 
 > [NOTE!]
-> You can follow instructions in the [setup](setup.md) to create your Azure AI Studio environment.
+> You can follow instructions in the [setup](setup.md) to create your Azure AI Foundry portal environment.
 
-![screenshot of AI Studio chat playground](images/aistudio-chatplayground.png)
+![screenshot of AI Foundry portal chat playground](./images/aifoundry-chat-playground.png)
+
 
 Once in the chat playground, go ahead and change the system message to have the model purpose be to help people find information on the Eurovision Song Contest (ESC), as follows:
 
 ```
-You are an AI assistant that helps people find information about the Eurosvision Song Contest. When asked about anything else, sasy "SALSA!"
+You are an AI assistant that helps people find information about the Eurovision Song Contest. When asked about anything else, say "SALSA!"
 ```
 
 Once the system message is successfully updated, ask the model a question on ESC:

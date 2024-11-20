@@ -6,11 +6,11 @@
 5. If you are taking advantage of the static front end site, edit the content in the _config.yml file as needed (specifically the title and description) -->
 
 
-# AI Tour BRK450 - Prompty, AI Studio and practical E2E development.
+# AI Tour BRK450 - Prompty, AI Foundry portal and practical E2E development.
 
 [![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4?WT.mc_id=aiml-137032-bethanycheum)
 
-This repo is intended for resources of the breakout session: Prompty, AI Studio and practical E2E development.
+This repo is intended for resources of the breakout session: Prompty, AI Foundry portal and practical E2E development.
 
 ![an image of the session banner](img/session-banner.jpg)
 
@@ -31,7 +31,7 @@ By the end of this session you will understand:
 * ​How to develop an App with Prompty​
 
 ## Technology Used
-* [Azure AI Studio](https://learn.microsoft.com/en-us/azure/ai-studio/)
+* [Azure AI Foundry portal](https://learn.microsoft.com/en-us/azure/ai-studio/)
 * [Prompty](https://www.prompty.ai/)
 * [PromptFlow](https://microsoft.github.io/promptflow/index.html)
 * [Visual Studio Code](https://code.visualstudio.com/)

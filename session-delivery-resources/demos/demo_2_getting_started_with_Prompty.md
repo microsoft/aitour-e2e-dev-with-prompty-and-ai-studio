@@ -1,6 +1,6 @@
 # Getting Started with Prompty
 
-I can liken Prompty to the AI Studio playground. Prompty is an asset class format for LLMs that provides observability, understandability and portability for developers. It puts prompts at the centre of your development accelerating prompt engineering and prompt source management.
+I can liken Prompty to the AI Foundry portal playground. Prompty is an asset class format for LLMs that provides observability, understandability and portability for developers. It puts prompts at the centre of your development accelerating prompt engineering and prompt source management.
 
 To get started with Prompty, first, install the Prompty extension in the Visual Studio Code Marketplace.
 
@@ -50,7 +50,7 @@ the sample inputs:
 1. **Sample inputs:** here define the model inputs
     1. **First Name:** Update it to your name.
     1. **Context:** This provides additional information for the model.
-    1. **Question:** the question a user asks, similiar to the user prompt in Azure AI Studio
+    1. **Question:** the question a user asks, similiar to the user prompt in Azure AI Foundry portal
 
 ## System Instructions and user prompt
 ![screenshot of system instructions with updated sample data](images/prompty-system-iinstructions.png)

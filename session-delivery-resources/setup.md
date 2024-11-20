@@ -1,22 +1,22 @@
 # TO-DO - setup
 
-## Setting up Azure AI Studio
+## Setting up Azure AI Foundry portal
 
-Follow the steps below to setup your Azure AI Studio environment:
+Follow the steps below to setup your Azure AI Foundry portal environment:
 
-1. Navigate to [Azure AI Studio](https://ai.azure.com?WT.mc_id=aiml-149230-bethanycheum) and login with your Azure account, once logged in, create a new project.
+1. Navigate to [Azure AI Foundry portal](https://ai.azure.com?WT.mc_id=aiml-149230-bethanycheum) and login with your Azure account.
 
-![](./demos/images/aistudio-landing-page.png)
+![](./demos/images/aifoundry-homepage.jpeg)
 
 2. Create a new project, you will also be prompted to create a new hub that will host your project.
 
-![](./demos/images/aistudio-newproject.png)
+![](./demos/images/aifoundry-newproject.png)
 
 3. Once you have successfully created your project, navigate to the deployments tab and deploy your Azure Open AI models i.e. ``GPT-4o`` and ``GPT-4``
 
-![](./demos/images/aistudio-newmodel.png)
+![alt text](./demos/images/aifoundry-newmodel.png)
 
-You are now ready to start the first demo on the introduction to Azure AI Studio and LLMs.
+You are now ready to start the first demo on the introduction to Azure AI Foundry portal and LLMs.
 
 ## Setting up your local Visual Studio Code
 
