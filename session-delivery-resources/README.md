@@ -14,7 +14,7 @@ Along with the video of the presentation, this document will link to all the ass
 
 ## File Summary
 
-| Resources          | Links                            | Description |
+| Resources          | Links    | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AAs1k7u) | Slides, [Additonal Languages](#powerpoint-slides-in-additional-languages) |
 | Train the Trainer PPT Recording | [Video](https://aka.ms/AAs1zy3) | Recorded delivery of the Train the Trainer PowerPoint slides |
@@ -24,21 +24,13 @@ Along with the video of the presentation, this document will link to all the ass
 
 This training repository is divided in to the following sections:
 
-<<<<<<< HEAD
-| [Slides](#slides) | [Demos](demos/README.md) | [Setup](setup.md) | 
-=======
 | [Slides](https://aka.ms/AAs1k7u) | [Demos](demos/README.md) | [Setup](setup.md) | 
->>>>>>> 7f0b6e4 (Update slide deck links in README.md and session-delivery-resources/README.md)
 |-------------------|---------------------------|--------------------------------------
 | 19 slides - 45 minutes| 6 demos - 37 minutes | Demo setup
 
 ## Slides
 
-<<<<<<< HEAD
-The [slides](presentations.md) have presenter notes in each part of the session
-=======
 The [slides](https://aka.ms/AAs1k7u) have presenter notes in each part of the session
->>>>>>> 7f0b6e4 (Update slide deck links in README.md and session-delivery-resources/README.md)
 
 ### Timing
 
