@@ -1,2 +1,3 @@
 promptflow
 azure-identity
+prompty[azure]
