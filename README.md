@@ -12,7 +12,7 @@
 
 This repo is intended for resources of the breakout session: Prompty, Azure AI Foundry and practical E2E development.
 
-![an image of the session banner](img/session-banner.jpg)
+![an image of the session banner](img/Slide27.jpg)
 
 ## Session Desciption
 
